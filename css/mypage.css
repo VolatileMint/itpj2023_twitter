@@ -1,0 +1,17 @@
+.names {
+    display: flex;
+    padding: 10px 0;
+}
+.names *{
+    padding: 5px;
+    margin-right: 10px;
+}
+.names h3 {
+    line-height: 75px;
+    font-size: 50px;
+}
+.user_icon{
+    width: 75px;   
+    height: 75px;
+    border-radius: 50%;   
+}

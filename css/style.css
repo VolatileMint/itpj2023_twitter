@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    height: 100%;
+    flex: 1;
+    margin-left: 10px;
+}
+i{
+    vertical-align: -4px;
+    margin-right: 10px;
+}
+.links{
+    height: 50px;
+    line-height: 50px;
+    padding-left:10px;
+    border-radius: 30px;
+}
+.links:hover{
+    background-color: #AAA;
+}
+.headeruser{
+    display: flex;
+}
+.headeruser img{
+    margin-right: 20px;
+    width: 60px;   
+    height: 60px;
+    border-radius: 50%;   
+}
+.headeruser p {
+    line-height: 50px;
+    font-size: 30px;
+}
+.main {
+    width: 600px;
+    padding: 5px;
+}
+.tweet{
+    min-height: 100px;
+    padding: 5px;
+}
+.tweet img{
+    max-height: 200px;
+}
+.line {
+    display: flex;
+    align-items: center;
+}
+.useranker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.useranker * {
+    margin-right: 10px;
+    font-size: 25px;
+}
+.useranker img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.search{
+    flex: 1;
+    max-width: 300px;
+    margin-left: 5px;
+}
+.search-form {
+    padding: 5px 10px;
+    border: 1px solid #333; border-radius: 30px;
+    width: 200px; max-width: 100%;
+    display: flex;  justify-content: center;  align-items: center;
+    background: #FFF;
+    font-size: 15px;
+}
+.search-input {
+    border: none;  background: none;  outline: none;
+    width: 420px;
+    color: #333;
+}
+.search-button {
+    border: none;  background: none;  outline: none;
+    color: #999;  font-weight: 900;  font-family: "Font Awesome 5 Free";
+    transition: color 0.3s ease 0s;
+}
+.search-button:hover {
+    color: #333;
+}
+.addTweet{
+    margin-bottom: 10px;
+}
+.addTweet textarea {
+    resize: none;
+    margin-bottom: 5px;
+}
+.send{
+    border-radius: 20px;
+}
+
+.test{
+    max-width: 700px;
+    margin: auto;
+}
+
+.setting_form *{
+    margin-bottom: 5px;
+}
+.csss{
+    margin-top: 10px;
+}
+.dtime{
+    color: #666;
+}
